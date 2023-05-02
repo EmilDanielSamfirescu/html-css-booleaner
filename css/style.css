@@ -12,12 +12,21 @@ header {
     color: ;
 }
 
+h1 {
+    margin-bottom: 0;
+}
+
+
 #logo {
     height: 60px;
     width: auto;
     position: absolute;
     left: 7px;
     bottom: 7px;
+}
+
+.information {
+    margin-bottom: 20px;
 }
 
 .editor {
@@ -48,14 +57,19 @@ header {
     font-size: 14px;
 }
 
+ul {
+    list-style-position: inside;padding-left: 0;
+}
+
+/* *********************
+      Table
+********************* */
+
 table {
     border-collapse: collapse;
     text-align: left;
 }
 
-/* table, tr {
-    border: 1px solid black;
-} */
 
 th {
     height: auto;
