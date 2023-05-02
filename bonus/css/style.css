@@ -88,6 +88,27 @@ tr:nth-child(odd) {
     width: 50%;
 }
 
+tr:hover {
+    background-color: darkorchid;
+    color: white;
+    cursor: pointer;
+}
+
+.tim:link, .tim:visited {
+text-decoration: none;
+color: black;
+}
+
+.tim:hover {
+    text-decoration: underline;
+    color: coral;
+}
+
+.tim:active {
+    text-decoration: underline;
+    background-color: coral;
+    color: white;
+}
 
 
 /* *********************
@@ -107,10 +128,18 @@ footer {
     font-weight: bold;
 }
 
+.monitor:hover {
+    cursor: pointer;
+}
+
 .graph {
     background-image: url(../img/graph.jpg);
     color: white;
     width: auto;
     height: 200px;
     font-weight: bold;
+}
+
+.graph:hover {
+    cursor: pointer;
 }
